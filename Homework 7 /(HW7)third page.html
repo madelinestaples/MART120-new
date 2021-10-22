@@ -5,6 +5,17 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         </head>
         <head>
+        <script> 
+        // this function checkes the textboxes to see if there is anything in them.  If
+        // turns the textbok red, gives it focus and prints out a required message 
+        function checkboxes ()
+        {
+           var firstname = document.getElementByID("fname").value;
+           window.alert(firstName);
+            //need to check for the other textbox and also remove the red and the requests until 
+            // something is filled in. 
+        }
+        </script>
         <body>
             <h1>Contact Us</h1>
             <br />
@@ -26,4 +37,8 @@
     Accept Terms of Agreement
     <p>
     <input type="radio" name="term" value="yes">Yes<br> <input type="radio" name="term" value="no">No<br>
+    <p>
+    <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();'>Submit</button>
+    </p>
     </head>
+</html>

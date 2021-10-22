@@ -1,0 +1,23 @@
+div {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:brown;
+    font-size:52px;
+}
+
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorange;
+    font-size: x-large;
+}
+
+#specificColor{
+    color:blueviolet;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#specificLink{
+    color:dodgerblue;
+    font-family: serif;
+    font-size: 28px;
+}
