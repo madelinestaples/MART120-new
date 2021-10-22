@@ -6,12 +6,36 @@
         </head>
         <head>
         <script> 
-        // this function checkes the textboxes to see if there is anything in them.  If
+        // this function checks the textboxes to see if there is anything in them.  If
         // turns the textbok red, gives it focus and prints out a required message 
         function checkboxes ()
         {
-           var firstname = document.getElementByID("fname").value;
-           window.alert(firstName);
+         var firstname = document.getElementById("fname").value;
+         window.alert("enter information");
+         
+         if(firstname == "")
+         {
+         
+         }
+        
+         
+
+         {
+         document.getElementById("fname").style.backgroundColor = "red";
+         document.getElementByID("fname").focus();
+         
+        
+         }
+         {
+          var lastname = document.getElementById("lname").value;
+          window.alert("enter last name");
+
+          if(lastname == "")
+          {
+          
+          }
+
+         }
             //need to check for the other textbox and also remove the red and the requests until 
             // something is filled in. 
         }
@@ -25,7 +49,7 @@
         <p>
        <a href="secondpage.html" target="_new">Page 2</a>
        <br />
-       <form action="nextPage.html" 
+       <form 
        type="Post">
        First Name: <input
     type="text" id="fname" ><br>
