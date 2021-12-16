@@ -3,6 +3,9 @@ function setup() {
   }
   
   function draw() {
+     
+  
+
     
    //pink background 
    background('#fae');
@@ -26,7 +29,17 @@ function setup() {
 
    //call createname
    createname();
+   
+   //call createellipse
+   createellipse();
+
+   //call createcircle
+   createcircle();
   
+
+
+
+
   
 
    
@@ -75,6 +88,19 @@ function setup() {
   {
     text ('Madeline Staples',10,300);
   }
+  function createellipse()
+  {
+    ellipse(90, 240, 100, 90);
+  ellipse(40,240,100,90);
+  ellipse(10,100,70,40);
+  }
+  function createcircle()
+  {
+    circle(100,200,40);
+  circle(70,80,90);
+
+  }
+  
   
   
   
